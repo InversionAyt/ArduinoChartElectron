@@ -1,0 +1,21 @@
+{
+  "name": "arduinochartelectron",
+  "version": "1.0.0",
+  "description": "AYT - Arduino Temperature Chart Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "InversionAyt",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^17.0.0"
+  },
+  "dependencies": {
+    "apexcharts": "^3.35.2",
+    "moment": "^2.29.3",
+    "serialport": "^10.3.0",
+    "tableify": "^1.1.1"
+  }
+}
